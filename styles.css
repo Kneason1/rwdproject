@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 100%;
+    gap: 5rem;
+}
+.about-me{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 15px;
+    color: white;
+}
+.courses{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    color: white;
+}
+.navbar{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    position: sticky;
+    top: 10%;
+}
+.quote{
+    grid-column: 1/2;
+    grid-row: 2/3;
+   color: white;
+}
+.header{
+    border: 100px solid gold;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+img{
+   position: relative;
+   right: 5px;
+   width: 500px;
+   height: 250px;
+   grid-column: 1/4;
+   grid-row: 1/2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
